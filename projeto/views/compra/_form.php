@@ -26,7 +26,7 @@ use kartik\datecontrol\DateControl;
             'autoclose' => true
         ]
     ]
-]); ?>
+    ]); ?>
 
     <?= $form->field($model, 'valor')->textInput(['maxlength' => true]) ?>
 

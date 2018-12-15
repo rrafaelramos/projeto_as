@@ -7,9 +7,9 @@ $this->title = 'SGPEC';
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Bem Vindo!</h1>
+        <h1>SisGPEC</h1>
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
+        <p class="lead">Bem vindo ao SisGPEC!</p>
 
         <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
     </div>

@@ -49,9 +49,10 @@ AppAsset::register($this);
                 'items' => [
                 ['label' => 'Cliente Avulso', 'icon' => '', 'url' => ['/cliente/index'] ],
                 ['label' => 'Serviços', 'icon' => '', 'url' => ['/produto/index'] ],
-                ['label' => 'Compras', 'icon' => '', 'url' => ['/compra/index'] ]
+                ['label' => 'Compras', 'icon' => '', 'url' => ['/compra/index'] ],
             ]],
             ['label' => 'Compras', 'url' => ['/compra/index']],
+            ['label' => 'Agenda', 'icon' => '', 'url' => ['/event/index'] ],
             
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]

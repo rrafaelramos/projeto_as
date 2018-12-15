@@ -33,8 +33,10 @@ $this->params['breadcrumbs'][] = $this->title;
             'bairro',
             'cidade',
             'numero',
-            'datanascimento',
-
+            ['attribute' => 'datanascimento',
+                'format' => ['date', 'php:d/m/Y'],
+            ],
+            
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
