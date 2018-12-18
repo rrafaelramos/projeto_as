@@ -43,6 +43,7 @@ AppAsset::register($this);
                 'items' => [
                 ['label' => 'Cliente Avulso', 'icon' => '', 'url' => ['/cliente/create'] ],
                 ['label' => 'Serviços', 'icon' => '', 'url' => ['/produto/create'] ],
+                ['label' => 'Categoria', 'icon' => '', 'url' => ['/categoria/create'] ],
                 
             ]],
             ['label' => 'Visualizar', 'icon' => 'file', 'url' => '#', 
@@ -54,7 +55,7 @@ AppAsset::register($this);
             ['label' => 'Compras', 'url' => ['/compra/index']],
             ['label' => 'Agenda', 'icon' => '', 'url' => ['/event/index'] ],
             
-            Yii::$app->user->isGuest ? (
+            /*Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
             ) : (
                 '<li>'
@@ -65,7 +66,7 @@ AppAsset::register($this);
                 )
                 . Html::endForm()
                 . '</li>'
-            )
+            )*/
         ],
     ]);
     NavBar::end();
