@@ -47,8 +47,8 @@ class Produto extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'descricao' => 'Descricao',
-            'preco' => 'Preco',
+            'descricao' => 'Descrição',
+            'preco' => 'Preço',
             'categoria_id' => 'Categoria ID',
         ];
     }

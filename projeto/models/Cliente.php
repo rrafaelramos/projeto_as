@@ -55,8 +55,8 @@ class Cliente extends \yii\db\ActiveRecord
             'rua' => 'Rua',
             'bairro' => 'Bairro',
             'cidade' => 'Cidade',
-            'numero' => 'Numero',
-            'datanascimento' => 'Datanascimento',
+            'numero' => 'Número',
+            'datanascimento' => 'Data de Nascimento',
         ];
     }
 

@@ -46,14 +46,17 @@ $config = [
             ],
         ],
         'db' => $db,
+        
+        //link para o controller rest
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'app\controllers\RestController' ]
             ],
-        ],
-        */
+        ],*/
+        
     ],
     
     // other settings
