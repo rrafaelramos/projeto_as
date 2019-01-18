@@ -125,4 +125,19 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+    
+    public function actionFeed() {
+        $api = new RestClient([
+            'base_url' => 'http://localhost:9999',
+            'headers' => [
+                'Acecept' => 'application/json'
+            ]
+        ]);
+        
+        $result = $api->get('/rest');
+        
+        echo '<pre>'; print_r($result->response); die;
+        
+        return $this->render('feed');
+    }
 }
